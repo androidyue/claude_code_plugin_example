@@ -180,6 +180,7 @@ androidyue
 
 ## Version History
 
+- **1.4.0** - Added configuration system (settings.json, .claude/settings.json)
 - **1.3.0** - Added utility scripts (context_monitor.py)
 - **1.2.0** - Added /commit command for generating commit messages
 - **1.1.0** - Added /refactor command for code refactoring
