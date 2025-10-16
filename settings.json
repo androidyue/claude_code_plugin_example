@@ -1,0 +1,61 @@
+{
+  "scripts": {
+    "context-monitor": {
+      "command": "python",
+      "args": ["scripts/context_monitor.py"],
+      "description": "Monitor project context size and file statistics"
+    }
+  },
+  "contextMonitor": {
+    "largeFileThreshold": 1000,
+    "hugeFileThreshold": 5000,
+    "totalLinesWarning": 50000,
+    "topFilesCount": 10,
+    "excludedDirs": [
+      "node_modules",
+      ".git",
+      "dist",
+      "build",
+      ".next",
+      "vendor",
+      "__pycache__",
+      ".venv",
+      "venv",
+      ".idea",
+      ".vscode",
+      "target",
+      "out",
+      "bin"
+    ],
+    "fileExtensions": [
+      ".js",
+      ".ts",
+      ".jsx",
+      ".tsx",
+      ".py",
+      ".java",
+      ".c",
+      ".cpp",
+      ".h",
+      ".hpp",
+      ".go",
+      ".rs",
+      ".rb",
+      ".php",
+      ".swift",
+      ".kt",
+      ".kts",
+      ".json",
+      ".yaml",
+      ".yml",
+      ".md",
+      ".txt",
+      ".sql",
+      ".sh",
+      ".bash",
+      ".cs",
+      ".scala",
+      ".r"
+    ]
+  }
+}

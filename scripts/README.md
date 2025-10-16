@@ -20,6 +20,25 @@ A comprehensive context monitoring tool written in Python that helps you underst
 **Requirements:**
 - Python 3.6+
 
+**Configuration:**
+
+The script can be configured via `settings.json` in the project root:
+
+```json
+{
+  "contextMonitor": {
+    "largeFileThreshold": 1000,
+    "hugeFileThreshold": 5000,
+    "totalLinesWarning": 50000,
+    "topFilesCount": 10,
+    "excludedDirs": ["node_modules", ".git", "dist"],
+    "fileExtensions": [".js", ".ts", ".py"]
+  }
+}
+```
+
+The plugin includes a pre-configured `settings.json` and `.claude/settings.json` for easy access.
+
 **Usage:**
 
 ```bash

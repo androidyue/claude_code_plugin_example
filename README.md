@@ -113,9 +113,19 @@ claude-dev-essentials/
 ├── scripts/                   # Utility scripts
 │   ├── context_monitor.py
 │   └── README.md
+├── .claude/                   # Claude Code settings
+│   └── settings.json
+├── settings.json              # Plugin configuration
 ├── CLAUDE.md                  # Development guidelines
 └── README.md
 ```
+
+## Configuration
+
+The plugin includes configuration files for easy customization:
+
+- **`settings.json`**: Plugin-wide settings and script configurations
+- **`.claude/settings.json`**: Project-specific settings and permissions
 
 ## Customization
 
@@ -126,6 +136,7 @@ You can customize this plugin for your needs:
 3. **Update guidelines**: Modify `CLAUDE.md` to match your team's standards
 4. **Add new commands**: Create new `.md` files in `commands/`
 5. **Add new agents**: Create new `.json` files in `agents/`
+6. **Configure scripts**: Edit `settings.json` to adjust script parameters
 
 ## Sharing Your Plugin
 

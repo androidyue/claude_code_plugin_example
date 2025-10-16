@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "context-monitor": {
+      "command": "python",
+      "args": ["scripts/context_monitor.py"],
+      "description": "Monitor project context size and file statistics"
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(python scripts/context_monitor.py*)"
+    ]
+  }
+}
