@@ -1,7 +1,7 @@
 {
   "name": "dev-essentials-marketplace",
   "description": "A curated collection of essential development tools and workflows for Claude Code",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "owner": {
     "name": "androidyue",
     "email": "[email protected]"
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "dev-essentials",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Essential development tools including code review, testing, debugging, and security audit capabilities",
       "source": "./",
       "author": {

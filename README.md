@@ -11,6 +11,7 @@ A comprehensive collection of development tools for Claude Code, including code 
 - **`/docs`** - Create comprehensive API documentation with examples and usage instructions
 - **`/optimize`** - Analyze code for performance optimization opportunities
 - **`/refactor`** - Refactor code to improve quality, maintainability, and apply design patterns
+- **`/commit`** - Generate well-structured commit messages following best practices
 
 ### Specialized Agents
 
@@ -69,6 +70,9 @@ claude /plugin install dev-essentials
 
 # Refactor code for better quality
 /refactor src/legacy/user-service.js
+
+# Generate commit message for staged changes
+/commit
 ```
 
 ### Using Specialized Agents
@@ -95,7 +99,8 @@ claude-dev-essentials/
 │   ├── test-plan.md
 │   ├── docs.md
 │   ├── optimize.md
-│   └── refactor.md
+│   ├── refactor.md
+│   └── commit.md
 ├── agents/                    # Specialized agents
 │   ├── debugging-agent.json
 │   ├── test-writer.json
@@ -157,5 +162,6 @@ androidyue
 
 ## Version History
 
+- **1.2.0** - Added /commit command for generating commit messages
 - **1.1.0** - Added /refactor command for code refactoring
 - **1.0.0** - Initial release with core commands and agents
