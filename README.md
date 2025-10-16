@@ -30,6 +30,10 @@ Includes development best practices for:
 - Documentation
 - Version control
 
+### Utility Scripts
+
+- **context_monitor.py** - Monitor project size and context usage for AI assistants
+
 ## Installation
 
 ### From Local Directory
@@ -106,6 +110,9 @@ claude-dev-essentials/
 │   ├── test-writer.json
 │   ├── refactoring-agent.json
 │   └── security-auditor.json
+├── scripts/                   # Utility scripts
+│   ├── context_monitor.py
+│   └── README.md
 ├── CLAUDE.md                  # Development guidelines
 └── README.md
 ```
@@ -162,6 +169,7 @@ androidyue
 
 ## Version History
 
+- **1.3.0** - Added utility scripts (context_monitor.py)
 - **1.2.0** - Added /commit command for generating commit messages
 - **1.1.0** - Added /refactor command for code refactoring
 - **1.0.0** - Initial release with core commands and agents
