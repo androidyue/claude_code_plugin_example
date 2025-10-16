@@ -2,7 +2,10 @@
   "name": "dev-essentials-marketplace",
   "description": "A curated collection of essential development tools and workflows for Claude Code",
   "version": "1.0.0",
-  "owner": "androidyue",
+  "owner": {
+    "name": "androidyue",
+    "email": "[email protected]"
+  },
   "author": {
     "name": "androidyue",
     "url": "https://github.com/androidyue"
