@@ -45,7 +45,7 @@ claude /plugin install dev-essentials
 Once published to GitHub:
 
 ```bash
-claude /plugin marketplace add yourusername/claude-dev-essentials
+claude /plugin marketplace add androidyue/claude_code_plugin_example
 claude /plugin install dev-essentials
 ```
 
@@ -118,7 +118,7 @@ You can customize this plugin for your needs:
 2. Push your plugin files
 3. Others can install with:
    ```bash
-   /plugin marketplace add yourusername/repo-name
+   /plugin marketplace add androidyue/claude_code_plugin_example
    /plugin install dev-essentials
    ```
 
@@ -146,9 +146,9 @@ MIT
 
 ## Author
 
-Your Name
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+androidyue
+- GitHub: [@androidyue](https://github.com/androidyue)
+- Repository: [claude_code_plugin_example](https://github.com/androidyue/claude_code_plugin_example)
 
 ## Version History
 

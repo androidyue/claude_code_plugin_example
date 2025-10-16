@@ -3,8 +3,8 @@
   "description": "A curated collection of essential development tools and workflows for Claude Code",
   "version": "1.0.0",
   "author": {
-    "name": "Your Name",
-    "url": "https://github.com/yourusername"
+    "name": "androidyue",
+    "url": "https://github.com/androidyue"
   },
   "plugins": [
     {
@@ -13,7 +13,7 @@
       "description": "Essential development tools including code review, testing, debugging, and security audit capabilities",
       "source": ".",
       "author": {
-        "name": "Your Name"
+        "name": "androidyue"
       },
       "keywords": [
         "code-review",
