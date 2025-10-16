@@ -10,6 +10,7 @@ A comprehensive collection of development tools for Claude Code, including code 
 - **`/test-plan`** - Generate detailed test plans with unit, integration, and e2e test cases
 - **`/docs`** - Create comprehensive API documentation with examples and usage instructions
 - **`/optimize`** - Analyze code for performance optimization opportunities
+- **`/refactor`** - Refactor code to improve quality, maintainability, and apply design patterns
 
 ### Specialized Agents
 
@@ -65,6 +66,9 @@ claude /plugin install dev-essentials
 
 # Optimize code performance
 /optimize src/database/queries.ts
+
+# Refactor code for better quality
+/refactor src/legacy/user-service.js
 ```
 
 ### Using Specialized Agents
@@ -90,7 +94,8 @@ claude-dev-essentials/
 │   ├── review.md
 │   ├── test-plan.md
 │   ├── docs.md
-│   └── optimize.md
+│   ├── optimize.md
+│   └── refactor.md
 ├── agents/                    # Specialized agents
 │   ├── debugging-agent.json
 │   ├── test-writer.json
@@ -152,4 +157,5 @@ androidyue
 
 ## Version History
 
+- **1.1.0** - Added /refactor command for code refactoring
 - **1.0.0** - Initial release with core commands and agents
